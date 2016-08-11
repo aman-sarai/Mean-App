@@ -1,0 +1,29 @@
+{
+  "name": "mean-app",
+  "description": "my first mean app",
+  "main": "index.js",
+  "authors": [
+    "Aman Sarai"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/aman-sarai/Mean-App",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "toastr": "^2.1.3",
+    "angular": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-route": "^1.5.8"
+  },
+  "resolutions": {
+    "jquery": ">=1.6.3 <3"
+  }
+}
